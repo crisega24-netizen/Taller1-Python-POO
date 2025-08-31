@@ -19,7 +19,6 @@ class Sensor:
 
     def menu(self):
         self.mostrarBienvenida()
-        print("-------- Control de Temperatura en el Invernadero --------")
         while True:
             print("\nMenú de opciones:")
             print("1. Ingresar temperatura y verificar estado")
