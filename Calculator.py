@@ -56,7 +56,7 @@ class Calculator:
 
 
 
-# ----------- Código Principal-----------
+# ------------------- Código Principal -------------------
 cal = Calculator()
 cal.mostrarBienvenida()
 cal.menu()
