@@ -44,6 +44,6 @@ class FizzBuzz:
                 print(" Opción inválida. Intente de nuevo.\n")
 
 
-# -------- Código Principal --------
+# ----------------- Código Principal ---------------
 juego = FizzBuzz()
 juego.menu()
