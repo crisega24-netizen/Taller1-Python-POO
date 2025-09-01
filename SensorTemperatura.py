@@ -1,9 +1,12 @@
 class Sensor:
     def __init__(self):
+        self.reiniciarDatos()
+        
+    def reiniciarDatos(self):
         self.estado = "Inactivo"
         
     def mostrarBienvenida(self):
-        print("  Bienvenido al Control de Temperatura ")
+        print("  Bienvenido al Sistema de Control de Temperatura ")
         print("Problema a resolver: Simular el control de un invernadero:")
         print("- Si la temperatura es menor a 10°C → Se activa el calefactor")
         print("- Si está entre 10°C y 25°C → Sistema inactivo")
@@ -35,13 +38,12 @@ class Sensor:
                     print("Simulación de espera de 5 segundos (presione Enter para continuar)")
                     input()
             elif opcion == "2":
-                continue
+                self.reiniciarDatos()
             elif opcion == "3":
                 print("Saliendo del programa. ¡Adioooooooooossss!")
                 break
             else:
                 print("Opción inválida. Intente nuevamente.")
 
-#---------------------- Código Principal --------------------
 temp = Sensor()
 temp.menu()
