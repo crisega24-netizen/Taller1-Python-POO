@@ -67,4 +67,3 @@ class Cine:
 # --------------------- Código Principal ------------------------
 sistema = Cine(capacidad=25)  
 sistema.menu()
-    
