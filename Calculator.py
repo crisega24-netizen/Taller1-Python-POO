@@ -36,6 +36,7 @@ class Calculator:
             print("Por favor, ingrese solo números válidos.")
 
     def menu(self):
+        self.mostrarBienvenida()
         while True:
             print("\n--------- Menú de Opciones ---------")
             print("1. Ejecutar Calculator Pro MAX")
@@ -56,7 +57,6 @@ class Calculator:
 
 
 
-# ------------------- Código Principal -------------------
+# ----------- Código Principal-----------
 cal = Calculator()
-cal.mostrarBienvenida()
 cal.menu()
