@@ -45,5 +45,7 @@ class Sensor:
             else:
                 print("Opción inválida. Intente nuevamente.")
 
+
+# ------------------- Código Principal ---------------------
 temp = Sensor()
 temp.menu()
